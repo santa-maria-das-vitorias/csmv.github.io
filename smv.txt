@@ -1,0 +1,16 @@
+----- GMAIL
+
+log: assoc.santamariadasvitorias@gmail.com
+psw: 1As36Vc90!@1
+
+
+----- GITHUB
+
+usr: santa-maria-das-vitorias
+log: assoc.santamariadasvitorias@gmail.com
+psw: b8mFjhYfVN4EZei
+
+
+----- VERCEL
+
+signin with github

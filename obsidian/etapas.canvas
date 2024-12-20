@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"5e4c5878706a49e0","type":"group","x":-180,"y":-380,"width":1400,"height":140,"color":"5","label":"CMS"},
+		{"id":"e27bf4aa203e8935","type":"group","x":100,"y":-180,"width":1120,"height":140,"color":"5","label":"LMS"},
+		{"id":"08d04cea3d59523a","type":"group","x":-240,"y":-180,"width":280,"height":140,"color":"5","label":"ERP"},
+		{"id":"702e109c553bef84","type":"text","text":"Análise","x":-760,"y":-360,"width":244,"height":100},
+		{"id":"5fecbd4476cb378e","type":"text","text":"Criação do back-end","x":120,"y":-366,"width":240,"height":106},
+		{"id":"cd2c9b681bd4d8c6","type":"text","text":"Criação do front-end","x":400,"y":-366,"width":240,"height":106},
+		{"id":"6d6662c0fc463878","type":"text","text":"Testes finais","x":680,"y":-366,"width":240,"height":106},
+		{"id":"770f4c785894167e","type":"text","text":"Realimentação de conteúdos","x":960,"y":-366,"width":240,"height":106},
+		{"id":"7219f4b1c01d89d2","type":"text","text":"Criação do banco de dados","x":-160,"y":-366,"width":240,"height":106},
+		{"id":"a4a7d749c4b4fc35","type":"text","text":"Desenvolvimento do Site Institucional","x":-460,"y":-360,"width":240,"height":100,"color":"5"},
+		{"id":"8802e410f0b4d04d","type":"text","text":"Testes finais","x":120,"y":-160,"width":240,"height":100},
+		{"id":"778ceed3f82cac7e","type":"text","text":"Criação do front-end","x":400,"y":-160,"width":240,"height":100},
+		{"id":"a198db8eb91a9654","type":"text","text":"Criação do back-end","x":680,"y":-160,"width":240,"height":100},
+		{"id":"9d6d77bd8d23fd06","type":"text","text":"Criação do banco de dados","x":960,"y":-160,"width":240,"height":100},
+		{"id":"554e1feb3d45d38b","type":"text","text":"Comming soon","x":-220,"y":-160,"width":240,"height":100}
+	],
+	"edges":[
+		{"id":"fcda34a67d23571a","fromNode":"702e109c553bef84","fromSide":"right","toNode":"a4a7d749c4b4fc35","toSide":"left"},
+		{"id":"9b188f93b29120d0","fromNode":"7219f4b1c01d89d2","fromSide":"right","toNode":"5fecbd4476cb378e","toSide":"left"},
+		{"id":"39c677a46ccb4468","fromNode":"5fecbd4476cb378e","fromSide":"right","toNode":"cd2c9b681bd4d8c6","toSide":"left"},
+		{"id":"4307dcfd544957f6","fromNode":"cd2c9b681bd4d8c6","fromSide":"right","toNode":"6d6662c0fc463878","toSide":"left"},
+		{"id":"73ed96902741a5dc","fromNode":"6d6662c0fc463878","fromSide":"right","toNode":"770f4c785894167e","toSide":"left"},
+		{"id":"aafc1f16a3b3b4e9","fromNode":"9d6d77bd8d23fd06","fromSide":"left","toNode":"a198db8eb91a9654","toSide":"right"},
+		{"id":"9934ef177659a9a8","fromNode":"a198db8eb91a9654","fromSide":"left","toNode":"778ceed3f82cac7e","toSide":"right"},
+		{"id":"1448b401522fd843","fromNode":"778ceed3f82cac7e","fromSide":"left","toNode":"8802e410f0b4d04d","toSide":"right"},
+		{"id":"44bd0d2da597bb83","fromNode":"a4a7d749c4b4fc35","fromSide":"right","toNode":"5e4c5878706a49e0","toSide":"left"},
+		{"id":"9204165d676f56c3","fromNode":"5e4c5878706a49e0","fromSide":"right","toNode":"e27bf4aa203e8935","toSide":"right"},
+		{"id":"20696021a0c7d58c","fromNode":"e27bf4aa203e8935","fromSide":"left","toNode":"08d04cea3d59523a","toSide":"right"}
+	]
+}
